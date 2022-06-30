@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   
   s.prepare_command = <<-CMD
       echo 'fetching WebRTC.framework'
-      curl -OL 'https://diyalog.im/app/pkgs/ios_frameworks/WebRTC/1.1.2941/WebRTC.zip'
+      curl -OL 'https://diyalog.im/releases/WebRTC/1.1.2941/WebRTC.zip'
       rm -fr 'WebRTC.framework'
       rm -fr 'WebRTC.xcframework'
       echo 'unzipping WebRTC.xcframework'
